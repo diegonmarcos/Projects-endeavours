@@ -1,3 +1,0 @@
-a_Companies/leafy
-a_Companies/nexus
-a_Companies/stark
