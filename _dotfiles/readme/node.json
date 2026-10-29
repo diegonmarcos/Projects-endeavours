@@ -1,0 +1,67 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "Projects-endeavours",
+  "label": "Projects-endeavours",
+  "code": "6.1.1.1",
+  "kind": "repo",
+  "description": "Front group a_Companies (split from front-projects, #1072)",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/Projects-endeavours",
+  "developer": "Projects",
+  "farm": "6.Projects",
+  "breadcrumb": [
+    {
+      "code": "6",
+      "kind": "area",
+      "label": "Projects",
+      "icon": "🎨"
+    },
+    {
+      "code": "6.1",
+      "kind": "project",
+      "label": "Endeavours",
+      "icon": "🚀"
+    },
+    {
+      "code": "6.1.1",
+      "kind": "family",
+      "label": "Endeavours",
+      "icon": ""
+    }
+  ],
+  "hub": {
+    "name": "Projects-___",
+    "code": "6.0",
+    "url": "https://github.com/diegonmarcos/Projects-___"
+  },
+  "base_dir": "git",
+  "members": [],
+  "tree": [
+    "├── 0_deployer (submodule)",
+    "├── 0_hub/",
+    "│   └── Projects-___ (submodule)",
+    "└── a_Companies/",
+    "    ├── leafy/",
+    "    │   ├── 0.spec/",
+    "    │   ├── dist/",
+    "    │   ├── public/",
+    "    │   └── src/",
+    "    ├── nexus/",
+    "    │   ├── 0.spec/",
+    "    │   ├── 1.ops/",
+    "    │   ├── dist/",
+    "    │   ├── public/",
+    "    │   ├── src/",
+    "    │   └── src_static/",
+    "    ├── stark/",
+    "    │   ├── dist/",
+    "    │   └── src/",
+    "    └── Warehouse/",
+    "        ├── 0.spec/",
+    "        ├── 1.ops/",
+    "        ├── dist/",
+    "        ├── public/",
+    "        └── src/"
+  ]
+}
