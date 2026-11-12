@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | `6.1.1.1` | 🌐 public | [Projects-___](https://github.com/diegonmarcos/Projects-___) `6.0` | Projects | `6.Projects/` |
 
-Sources of the `a_Companies` group (leafy, nexus, stark; Warehouse moved in from front-warehouse, #1196), split from diegonmarcos/front-projects (#1072, which itself was split from diegonmarcos.github.io). Paths mirror the original layout (`a_Companies/...` at the repo root). The Pages workflow of diegonmarcos.github.io checks this repo out over its workspace and publishes it.
+Sources of the `a_Companies` group (leafy, nexus, stark now live in their own repos cloud-me-pub-profiles-leaf.y / -nexus.z / -stark.x and are relative symlinks here, #1224; Warehouse moved in from front-warehouse, #1196), split from diegonmarcos/front-projects (#1072, which itself was split from diegonmarcos.github.io). Paths mirror the original layout (`a_Companies/...` at the repo root). The Pages workflow of diegonmarcos.github.io checks this repo out over its workspace and publishes it.
 History stays in diegonmarcos.github.io (snapshot copy). `SPLIT-PATHS.txt` lists the overlaid paths.
 
 ## Folders
@@ -23,21 +23,9 @@ Projects-endeavours/
 ├── 0_hub/
 │   └── Projects-___ (submodule)
 └── a_Companies/
-    ├── leafy/
-    │   ├── 0.spec/
-    │   ├── dist/
-    │   ├── public/
-    │   └── src/
-    ├── nexus/
-    │   ├── 0.spec/
-    │   ├── 1.ops/
-    │   ├── dist/
-    │   ├── public/
-    │   ├── src/
-    │   └── src_static/
-    ├── stark/
-    │   ├── dist/
-    │   └── src/
+    ├── leafy -> ../../cloud-me-pub-profiles-leaf.y (symlink, #1224)
+    ├── nexus -> ../../cloud-me-pub-profiles-nexus.z (symlink, #1224)
+    ├── stark -> ../../cloud-me-pub-profiles-stark.x (symlink, #1224)
     └── Warehouse/
         ├── 0.spec/
         ├── 1.ops/
